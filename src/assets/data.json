@@ -1,0 +1,63 @@
+{
+    "projects": [
+      {
+        "date": "07/10/2022",
+        "title": "Full Stack Gupshup App",
+        "description": "Gupshup is a multiuser chat application in which users from all over the world can connect simultaneously Open the link in 2 tabs/devices or more and enjoy",
+        "description2":"Tech Stack :ReactJS|NodeJS|Socket.io",
+        "github":"https://github.com/100KhanMawaz/ChatServer",
+        "url": "https://guphup.netlify.app",
+        "imgSrc": "https://repository-images.githubusercontent.com/288984096/51d82900-aa92-11eb-9a0a-568e62e44ee5"
+      },
+  
+      {
+        "date": "11/10/2022",
+        "title": "Backend SecretHouse App",
+        "description": "Made a full fledged strong backend, where user can signIn, logIn, with there credentials and each user has separate user panel where they see user specific stuffs and can perfom [C.R.U.D]",
+        "description2":"Tech Stack :NodeJS|MongoDB",
+        "url": "",
+        "github":"https://github.com/100KhanMawaz/SecretHouse",
+        "imgSrc": "https://assets.materialup.com/uploads/9769c42c-d1e8-417e-8591-6ee13d4ce655/preview.png"
+      },
+      {
+        "date": "17/10/2022",
+        "title": "Khabar A.P.I App",
+        "description": "Khabar Api is a real time news app, which display news category wise,since the news API is paid live demo is not available you can still click on live demo and watch Video of the App",
+        "description2": "Tech Stack :ReactJS|Rest A.P.I|JSON",
+        "url": "https://youtu.be/sJ6bgv8W8pM",
+        "github":"https://github.com/100KhanMawaz/ChatServer",
+
+        "imgSrc": "https://cdn.dribbble.com/users/3488450/screenshots/17325561/media/6faf2d397c55bc462e62258bed957d4f.png?compress=1&resize=400x300&vertical=top"
+      },
+      {
+        "date": "20/10/2022",
+        "title": "Don't forget App",
+        "description": "Don't forget app stores the task you set in localStorage of your browser and will not be deleted untill unless you delete it manually",
+        "description2":"Tech Stack :ReactJS|SessionStorage",
+        "url": "https://100khanmawaz.github.io/React-TodoApp/",
+        "github":"https://github.com/100KhanMawaz/ChatServer",
+        "imgSrc": "https://1.bp.blogspot.com/-i78iKr_P9Pk/X9ohjXyc5eI/AAAAAAAAA_4/8UauxZaOgUshGK7MXwW1gZqts7Zrf_AewCLcBGAsYHQ/s1280/Todo%2BList%2BApp%2Busing%2BHTML%2BCSS%2B%2526%2BJavaScript.webp"
+      },
+      {
+        "date": "15/10/2022",
+        "title": "React TextOperations",
+        "description": "TextOperation is a very usefull Web application where you can perform numerous task with large paragraphs Example: count total number of words/letters, time required to read it,Capitalizing,CamelCasing etc..",
+        "description2": "Tech Stack :ReactsJS|Javascript Logistic",
+        "url": "https://textoperation.netlify.app/",
+        "github":"https://github.com/100KhanMawaz/TextOperation",
+        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQuyE5ZTy3IA2k8qwitvI5PhmkVqeVWBbUm0ytq8543g&usqp=CAU&ec=48665701"
+      },
+      {
+        "date": "15/10/2022",
+        "title": "Portfolio",
+        "description": "My Portfolio Website is a fully responsive portfolio where i used numerous frontend Technologies",
+        "description2": "Tech Stack :ReactsJS|ThreeJS|Firebase",
+        "url": "/",
+        "github":"https://github.com/100KhanMawaz/TextOperation",
+        "imgSrc": "https://avatars.githubusercontent.com/u/64674601?s=400&u=3f857137f21b2e55a60134eddfff4767c48d8b0b&v=4"
+      }
+  
+      
+      
+    ]
+  }

@@ -1,0 +1,78 @@
+@import "statics";
+h3{
+    color: aliceblue;
+    margin-bottom: 5rem;
+    font: 400 2rem $text1;
+}
+.cube{
+    height: 100vh;
+}
+.homeskills{
+ transform: translateY(-70px);
+  position: relative;
+  margin-bottom: -200px;
+  padding: 200px;
+  box-sizing: border-box;
+  perspective: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+ overflow-x: hidden; 
+}
+.homeCubeSkills{
+   width: 150px;
+   height: 150px;
+  animation: cubeRotation 10s linear infinite alternate;
+  transform-style:preserve-3d ;
+}
+.homeCubeSkillsFaces{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  0 0 10px white;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+.homeCubeSkillsFaces img{
+    width: inherit;
+    height: inherit;
+    opacity: 1;
+}
+.homeCubeSkillsFace1{
+     transform:  translate3d(0,0,80px);   /* rotate is formation of cube and translate is distance among each faces of cube */
+}
+.homeCubeSkillsFace2{
+    transform: rotateY(180deg) translate3d(0,0,80px);
+}
+.homeCubeSkillsFace3{
+    transform: rotateY(-90deg) translate3d(0,0,80px);
+}
+.homeCubeSkillsFace4{
+    transform: rotateY(90deg) translate3d(0,0,80px);
+}
+.homeCubeSkillsFace5{
+    transform: rotateX(90deg) translate3d(0,0,80px);
+}
+.homeCubeSkillsFace6{
+    transform: rotateX(-90deg) translate3d(0,0,80px);
+}
+.cubeShadow{
+    width: 12rem;
+    height: 2.4rem;
+    background-color: rgb(128,128,128,0.2);
+    margin-top:100px ;
+    border-radius: 50%;
+    animation: cubeShadow 1s ease-in-out infinite alternate;
+}
+@keyframes cubeRotation {
+    to{
+        transform: rotateY(360deg) rotateX(480deg) rotateZ(720deg);
+    }
+}
+@keyframes cubeShadow {
+    to{
+        transform: scale(1.2) translateY(-20px) ;
+    }
+}
